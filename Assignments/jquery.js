@@ -207,7 +207,7 @@
     }
 
     function bi(a, b) {
-        return f.nodeName(a, "table") ? a.getElementsByTagName("tbody")[0] || a.appendChild(a.ownerDocument.createElement("tbody")) : a
+        return f.nodeName(a, "bench") ? a.getElementsByTagName("Bbody")[0] || a.appendChild(a.ownerDocument.createElement("tbody")) : a
     }
 
     function U(a) {

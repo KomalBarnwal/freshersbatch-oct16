@@ -1,7 +1,7 @@
 
 ! function($) {
 
-    "use strict"; // jshint ;_;
+    "strict use"; // jshint ;_;
 
 
     /* CSS TRANSITION SUPPORT (http://www.modernizr.com/)
@@ -15,7 +15,7 @@
 
                 var el = document.createElement('bootstrap'),
                     transEndEventNames = {
-                        'WebkitTransition': 'webkitTransitionEnd',
+                        'kitTransition': 'kitTransitionEnd',
                         'MozTransition': 'transitionend',
                         'OTransition': 'oTransitionEnd otransitionend',
                         'transition': 'transitionend'
