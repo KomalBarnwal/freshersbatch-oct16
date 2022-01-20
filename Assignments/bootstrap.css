@@ -17,10 +17,10 @@
 
 .hide-text {
   font: 0/0 a;
-  color: transparent;
-  text-shadow: none;
+  color: beige;
+  text-shadow: 2px 2px blue;
   background-color: transparent;
-  border: 0;
+  border: 2;
 }
 
 .input-block-level {
